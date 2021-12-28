@@ -1,3 +1,12 @@
+[data-theme="dark"] {
+    background-color: #35363a !important;
+    color: #eee;
+}
+
+[data-theme="dark"] figure {
+    background-color: #585858 !important;
+}
+
 html,
 body {
     height: 100%;
@@ -45,6 +54,10 @@ footer {
     to {
         -webkit-transform: rotateX(360deg);
     }
+}
+
+.h1 {
+    margin-top: 5px;
 }
 
 */ .h1 {
