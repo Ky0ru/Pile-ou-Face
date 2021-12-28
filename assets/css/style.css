@@ -21,17 +21,16 @@ footer {
     margin-top: 25px;
     margin-bottom: 4px;
     transition: all 0.4s ease 0s;
+    -webkit-margin-top: 25px;
+    -webkit-margin-bottom: 4px;
+    -webkit-animation-name: cssAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-transition: all 0.4s ease 0s;
 }
 
-
-/* :hover.piece {
-    margin-top: 35px;
-    margin-bottom: 15px;
-    transform: rotateX(360deg);
-    transition-duration: 1s
-} */
-
-.classname {
+.rotationcoin {
+    margin-top: 25px;
+    margin-bottom: 4px;
     -webkit-margin-top: 25px;
     -webkit-margin-bottom: 4px;
     -webkit-animation-name: cssAnimation;
@@ -48,21 +47,14 @@ footer {
     }
 }
 
-
-/* :hover.classname {
-    margin-top: 35px;
-    margin-bottom: 15px;
-    /* transform: rotateX(360deg);
-    transition-duration: 1s */
-
-
-}
 */ .h1 {
     font-weight: bold;
 }
+
 .commentaire {
     font-style: italic;
 }
+
 .btn {
     margin-top: 30px;
     background: white;
@@ -72,6 +64,7 @@ footer {
     transform: rotateX(0deg);
     font-weight: 700;
 }
+
 :hover.btn {
     margin-top: 30px;
     background: rgb(88, 88, 88);
@@ -81,6 +74,7 @@ footer {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     transform: rotateX(0deg);
 }
+
 figure {
     margin-top: 10px;
     margin: 2px;
@@ -89,27 +83,34 @@ figure {
     padding: 15px;
     border-radius: 5px;
 }
+
 figure h2 {
     margin-left: 10px;
     text-align: start;
 }
+
 blockquote {
     margin: 0;
 }
+
 blockquote p {
     padding: 15px;
     border-radius: 5px;
 }
+
 blockquote p::before {
     content: '\201C';
 }
+
 blockquote p::after {
     content: '\201D';
 }
+
 .form-switch,
 .form-check-input {
     cursor: pointer;
 }
+
 .form-check-input:checked {
     background-color: #585858;
     border-color: #585858;
